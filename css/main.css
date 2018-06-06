@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+#homepage,
+#food-page {
+  background: url('../img/wood-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  color: #82b0b0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Delius Swash Caps";
+  text-shadow: 1px 2px 10px #3D3D3D;
+}
+
+p {
+ font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  margin: 10% 0 3%;
+}
+
+nav li:not(:first-child) {
+    border-left: 2px solid #82b0b0;
+}
+
+nav li:hover,
+.cart-list li span:hover,
+.footer-nav li:hover {
+  text-shadow: 0 0 10px #fff;
+}
+
+.main-header {  
+  padding-top: 100px;
+}
+
+.main-title {
+  font-size: 5.625rem;
+  padding-bottom: 25px;
+}
+
+.sub-title {
+  font-family: serif;
+  font-size: 2.5rem;
+  border-top: 3px solid #82b0b0;
+  padding-top: 10px;
+}
+
+.frontpage-nav {
+  margin-top: 25%;
+}
+
+.nav-container,
+.twitter-container {
+  display: inline-block;
+  padding: 10px 0;
+  border: 8px solid burlywood;
+}
+
+.frontpage-nav li {
+  display: inline;
+  padding: 0 15px;
+  font-size: 3.5rem;
+}
+
+.footer-nav li {
+  display: inline;
+  padding: 0 15px;
+  font-size: 2rem;
+}
+
+.subpage-header {
+  padding: 50px 0 50px 25px;
+  text-align: left;
+}
+
+.title-subpages {
+  display: inline;
+  font-size: 2.25rem;
+  border-bottom: 2px solid;
+  margin-bottom: 25px;
+}
+
+.carts {
+  background: url('../img/chalkboard.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Fredericka the Great', cursive;
+  margin: auto;
+  width: 67%;
+  padding-bottom: 25px;
+  border: 15px solid burlywood;
+  text-align: center;
+}
+
+.cart-title {
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-decoration-line: underline;
+}
+
+.cart-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+.cart-list li {
+  margin-top: 12px;
+}
+
+.cart-list li:first-child {
+  margin-top: 0;
+}
+
+.map {
+  border: 15px solid burlywood;
+}
+
+.about {
+  margin: 15% auto;
+  width: 75%;
+  border: 2px #82b0b0;
+  border-style: solid none;
+  padding: 1% 0;
+}
+/*
+@media
+  font-size use vw;
+    make nav larger for big screens
+  remove nav li borders
+*/
