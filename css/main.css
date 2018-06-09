@@ -36,6 +36,10 @@ a {
   color: inherit;
 }
 
+ul {
+  padding: 0;
+}
+
 footer {
   padding: 10% 0 3%;
 }
@@ -113,16 +117,15 @@ nav li:hover,
   background-size: cover;
   font-family: 'Fredericka the Great', cursive;
   margin: auto;
-  width: 67%;
-  max-width: 760px;
+  width: 90%;
   padding-bottom: 25px;
-  border: 15px solid burlywood;
+  border: 5px solid burlywood;
   text-align: center;
 }
 
 .cart-title {
-  font-size: 3.75rem;
-  font-weight: 300;
+  font-size: 2.5rem;
+  font-weight: 500;
   text-decoration-line: underline;
 }
 
@@ -130,7 +133,8 @@ nav li:hover,
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .cart-list li {
@@ -195,6 +199,22 @@ nav li:hover,
 
   nav li:not(:first-child) {
       border-left: 2px solid burlywood;
+  }
+
+  .carts {
+    width: 67%;
+    max-width: 760px;
+    border: 15px solid burlywood;
+    text-align: center;
+  }
+
+  .cart-title {
+    font-size: 3.75rem;
+  }
+
+  .cart-list {
+    font-size: 2rem;
+    font-weight: 
   }
 
 }
